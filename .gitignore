@@ -1,0 +1,50 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# VSCode settings
+.vscode/
+
+# PyInstaller build artifacts
+dist/
+build/
+*.spec
+
+# Test and temp files
+*.log
+*.tmp
+*.bak
+temp/
+*.sqlite3
+
+# Coverage/report
+htmlcov/
+coverage.xml
+.cache/
+*.cover
+*.py,cover
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.db
+*.egg-info/
