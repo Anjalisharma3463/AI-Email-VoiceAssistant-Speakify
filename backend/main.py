@@ -22,4 +22,4 @@ app.add_middleware(
 async def read_root():
     with open("frontend/index.html", "r") as file:
         html_content = file.read()
-    return HTMLResponse(content=html_content, status_code=200)
+    return HTMLResponse(content=html_content, status_code=200) 
