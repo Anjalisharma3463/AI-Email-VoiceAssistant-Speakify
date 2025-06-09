@@ -30,7 +30,7 @@ if __name__ == "__main__":
     print("🔄 Waiting for FastAPI to start...")
     if wait_for_server("http://127.0.0.1:8000"):
         print("✅ Server is ready. Launching app...")
-        webview.create_window("AI Voice Email Assistant", "http://127.0.0.1:8000", width=1000, height=700)
+        webview.create_window("AI Voice Email Assistant", "http://127.0.0.1:8000", width=620, height=700)
         webview.start()
     else:
         print("❌ Server failed to start within timeout.")
